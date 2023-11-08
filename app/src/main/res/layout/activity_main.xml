@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/startwin"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guid1"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation_lkn02n22" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linear"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintTop_toTopOf="@+id/lottieAnimationView">
+
+
+        <com.smb.glowbutton.GlowButton
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            app:gb_drawablePadding="50dp"
+            app:gb_drawableTint="@color/black"
+            app:gb_text="NEW GAME"
+            app:gb_textColor="#EFECEC"
+            app:gb_textSize="16dp"
+            app:gb_textStyle="bold"
+            app:gb_backgroundColor="#BF4413"
+            app:gb_cornerRadius="15dp"
+            app:gb_disabledTextColor="#808080"
+            app:gb_glowAnimationDuration="500"
+            app:gb_glowColor="#D3361A"
+            app:gb_rippleAnimationDuration="1500"
+            app:gb_rippleEnabled="true" />
+        <com.smb.glowbutton.GlowButton
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            app:gb_drawablePadding="50dp"
+            app:gb_drawableTint="@color/black"
+            app:gb_text="ABOUT US"
+            app:gb_textStyle="bold"
+            app:gb_textColor="#EFECEC"
+            app:gb_textSize="16dp"
+            app:gb_backgroundColor="#BF4413"
+            app:gb_cornerRadius="15dp"
+            app:gb_disabledTextColor="#808080"
+            app:gb_glowAnimationDuration="500"
+            app:gb_glowColor="#D3361A"
+            app:gb_rippleAnimationDuration="1500"
+            app:gb_rippleEnabled="true" />
+
+
+
+        <com.smb.glowbutton.GlowButton
+            android:id="@+id/exit_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            app:gb_drawablePadding="50dp"
+            app:gb_drawableTint="@color/black"
+            app:gb_text="EXIT"
+            app:gb_textStyle="bold"
+            app:gb_textColor="#EFECEC"
+            app:gb_textSize="16dp"
+            app:gb_backgroundColor="#BF4413"
+            app:gb_cornerRadius="15dp"
+            app:gb_disabledTextColor="#808080"
+            app:gb_glowAnimationDuration="500"
+            app:gb_glowColor="#D3361A"
+            app:gb_rippleAnimationDuration="1500"
+            app:gb_rippleEnabled="true" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guid1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

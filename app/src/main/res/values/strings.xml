@@ -1,0 +1,27 @@
+<resources>
+    <string name="play">PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="rating">RATING</string>
+    <string name="exit">EXIT</string>
+    <string name="app_name">Puzzle 15 for Halloween</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="about"> (Rus)  Добро пожаловать в мир "Puzzle 15 for Helloween"! Мы команда разработчиков, которая создала эту захватывающую игру, чтобы подарить вам увлекательное развлечение во время праздника Хэллоуин.
+
+Меня зовут Мавлонов Хумоюн, и я гордый создатель этой игры. Моя страсть к программированию и разработке игр вдохновила меня на создание "Puzzle 15 for Helloween".
+
+В "Puzzle 15 for Helloween" вы будете погружены в захватывающую головоломку, где ваша задача - правильно упорядочить фрагменты изображения, чтобы создать красивые и загадочные иллюстрации Хэллоуина. Каждый уровень представляет новое сложное испытание, и вы будете наслаждаться каждым шагом в процессе разгадывания головоломки.
+
+Мы стремимся создавать увлекательные игры, которые приносят радость и удовлетворение нашим пользователям. "Puzzle 15 for Helloween" - это лишь одно из многих наших творений, и мы надеемся, что эта игра принесет вам радость и незабываемые моменты во время празднования Хэллоуина.
+
+Спасибо, что выбрали "Puzzle 15 for Helloween". Мы надеемся, что вам понравится играть в нее так же, как нам было приятно создавать ее. Наслаждайтесь игрой и желаем вам веселого Хэллоуина!
+
+С наилучшими пожеланиями,
+Мавлонов Хумоюн(tg : @hmavlonov)
+Команда "GITA" (tg : @gitauz )</string>
+</resources>
